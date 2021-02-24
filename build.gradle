@@ -35,7 +35,7 @@ loom {
     // using forge loom. Note that this currently *only* works
     // for forge projects made with forge loom!
     dataGen {
-        mod "examplemod" // replace "examplemod" with your mod id!
+        mod project.mod_id
     }
 
     // This allows you to modify your launch configurations,
