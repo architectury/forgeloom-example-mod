@@ -91,7 +91,7 @@ dependencies {
     // compile against the JEI API but do not include it at runtime
     // don't worry about loom "not finding a forge mod" here,
     // JEI's api just doesn't have any class with an @Mod annotation
-    modCompile "mezz.jei:jei-1.16.4:${jei_version}:api"
+    modImplementation "mezz.jei:jei-1.16.4:${jei_version}:api"
     // at runtime, use the full JEI jar
     modRuntime "mezz.jei:jei-1.16.4:${jei_version}"
 }
