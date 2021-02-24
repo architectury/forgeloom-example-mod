@@ -30,11 +30,6 @@ loom {
     // in SRG mapped ("func_" / "field_" with MCP class names) to work!
     // (both of these things may be subject to change in the future)
 
-    // use this if you want to use fabric's fork of mixin,
-    // which enables a couple of extra features like duck-typing
-    // interfaces with default methods
-    useFabricMixin = true
-
     // this will create a data generator configuration
     // that you can use to automatically generate assets and data
     // using forge loom. Note that this currently *only* works
