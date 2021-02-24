@@ -139,11 +139,11 @@ jar {
     manifest {
         attributes([
                 "Specification-Title"     : project.mod_id,
-                "Specification-Vendor"    : "Example Mods are Us, Inc.",
+                "Specification-Vendor"    : project.mod_author,
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : version,
-                "Implementation-Vendor"   : "Example Mods are Us, Inc.",
+                "Implementation-Vendor"   : project.mod_author,
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
