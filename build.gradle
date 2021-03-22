@@ -76,7 +76,7 @@ dependencies {
     // mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 
     // uncomment this if you want to use mcp mappings
-    // mappings "de.oceanlabs.mcp:mcp_${project.mcp_channel}:${project.mcp_mappings}"
+    // mappings group: "de.oceanlabs.mcp", name: "mcp_${project.mcp_channel}", version: project.mcp_mappings, ext: "zip"
 
     // your forge dependency, this is **required** when using Forge Loom in forge mode!
     forge "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
