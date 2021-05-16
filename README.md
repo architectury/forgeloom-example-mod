@@ -1,6 +1,6 @@
 # ~~Fabric~~ Forge Example Mod
 
-*...using [Forgified Fabric Loom](https://github.com/architectury/forgified-fabric-loom)*
+*...using [Architectury Loom](https://github.com/architectury/forgified-fabric-loom)*
 
 ## Setup
 
